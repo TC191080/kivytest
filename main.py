@@ -22,4 +22,7 @@ class SimpleApp(kivy.app.App):
   self.label.text = self.textInput.text
 if __name__ == "__main__":
  simpleApp = SimpleApp()
+
+ def test_dummy():
+  pass
 simpleApp.run()
